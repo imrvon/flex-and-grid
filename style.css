@@ -247,6 +247,7 @@ button:hover {
         'first first second'
         'third fourth fourth'
         'third fifth fifth';
+        grid-template-rows: 1.3fr 1fr 1.2fr;
         gap: 1.5rem;
     }
 }
