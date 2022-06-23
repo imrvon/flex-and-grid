@@ -242,12 +242,15 @@ button:hover {
 @media screen and (min-width: 720px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 3fr 1fr 2fr;
+        grid-template-columns: 300px 100px 200px;
         grid-template-areas: 
         'first first second'
         'third fourth fourth'
         'third fifth fifth';
-        grid-template-rows: 1.3fr 1fr 1.2fr;
+        grid-template-rows:
+            200px
+            50px
+            70px;
         gap: 1.5rem;
     }
 }
